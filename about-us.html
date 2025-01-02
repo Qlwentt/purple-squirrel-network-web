@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>About Us - Purple Squirrel Network</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS File Linkup -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="w-full pt-4 md:pt-6">
+      <div class="container">
+        <div class="grid grid-cols-2 gap-2 lg:grid-cols-3">
+          <div>
+            <a href="./index.html">
+              <img
+                loading="lazy"
+                src="./assets/logo.svg"
+                alt="site__logo"
+                class="w-24 lg:w-auto"
+              />
+            </a>
+          </div>
+
+          <div class="md:col-span-2 hidden lg:flex items-center gap-[34px]">
+            <a class="text-base text-primaryBlack" href="./index.html">
+              Home
+            </a>
+            <a class="text-base font-medium text-activeBlack" href="#">
+              About Us
+            </a>
+            <a class="text-base text-primaryBlack" href="./for-engineers.html">
+              For Engineers
+            </a>
+            <a class="text-base text-primaryBlack" href="./for-companies.html">
+              For Companies
+            </a>
+          </div>
+
+          <!-- Hamburger Icon -->
+          <div class="flex items-center justify-end w-full lg:hidden">
+            <button class="cursor-pointer hamburger-button">
+              <img
+                loading="lazy"
+                src="./assets/hamburger.svg"
+                alt="hamburger__icon"
+              />
+            </button>
+          </div>
+
+          <!-- Hamburger Menu Open -->
+          <div
+            class="hamburger-overlay w-[95%] px-5 pt-6 pb-14 bg-themePurple rounded-30px absolute left-1/2 -translate-x-1/2 top-3 z-50 overflow-hidden opacity-0 flex flex-col justify-between"
+          >
+            <!-- Heading -->
+            <div class="flex items-center justify-between w-full">
+              <a href="./index.html">
+                <img
+                  loading="lazy"
+                  src="./assets/ham-logo.svg"
+                  alt="site__logo"
+                  class="w-24 lg:w-auto"
+                />
+              </a>
+
+              <button class="cursor-pointer close-button">
+                <img
+                  loading="lazy"
+                  src="./assets/close-icon.svg"
+                  alt="close__icon"
+                />
+              </button>
+            </div>
+
+            <!-- Links -->
+            <div class="w-full my-10 space-y-8">
+              <a
+                href="./index.html"
+                class="block w-full text-base text-center text-white"
+              >
+                Home
+              </a>
+              <a href="#" class="block w-full text-base text-center text-white">
+                About Us
+              </a>
+              <a
+                href="./for-engineers.html"
+                class="block w-full text-base text-center text-white"
+              >
+                For Engineers
+              </a>
+              <a
+                href="./for-companies.html"
+                class="block w-full text-base text-center text-white"
+              >
+                For Companies
+              </a>
+            </div>
+
+            <div class="w-full">
+              <h5 class="font-medium text-white mb-[25px] text-center">
+                Follow Us
+              </h5>
+
+              <div class="flex items-center justify-center gap-2.5">
+                <a href="https://x.com/PurpleSqrrlNtwk" target="_blank">
+                  <div
+                    class="w-[42px] h-[42px] rounded-full bg-themePurple flex items-center justify-center hover:translate-y-2 duration-200"
+                  >
+                    <img
+                      loading="lazy"
+                      src="./assets/twitter-icon.svg"
+                      alt="twitter__icon"
+                    />
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/purple-squirrel-network-qw/"
+                  target="_blank"
+                >
+                  <div
+                    class="w-[42px] h-[42px] rounded-full bg-white flex items-center justify-center hover:translate-y-2 duration-200"
+                  >
+                    <img
+                      loading="lazy"
+                      src="./assets/linkedin-icon.svg"
+                      alt="linkedin-icon.svg__icon"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Main Content Start -->
+    <main class="w-full">
+      <!-- Banner Start -->
+      <div class="w-full px-3 mt-4 md:mt-6 lg:px-0">
+        <div
+          class="relative isolate h-[518px] md:h-[493px] bg-bannerBg secondary-container rounded-40px overflow-hidden px-3"
+        >
+          <div class="flex flex-col items-center justify-center w-full h-full">
+            <h1 class="primary__heading leading-[130%] text-center">
+              About Purple <br />
+              Squirrel Network
+            </h1>
+
+            <div class="w-full max-w-[658px] mx-auto mt-2.5 mb-5">
+              <p
+                class="text-center text-themePera leading-[150%] text-sm md:text-base"
+              >
+                I’m Quai Wentt, founder of Purple Squirrel Network, empowering
+                underrepresented engineers with skills, connections, and
+                opportunities to thrive in tech.
+              </p>
+            </div>
+          </div>
+
+          <!-- Background Image -->
+          <div class="absolute inset-0 pointer-events-none -z-10">
+            <img
+              loading="lazy"
+              src="./assets/banner-mask-bg.png"
+              alt="background__image"
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Banner End -->
+
+      <!-- About Us Section Start -->
+      <div class="w-full my-12">
+        <div class="container">
+          <!-- Wrapper Start -->
+          <div
+            class="w-full flex items-center justify-between gap-9 lg:gap-[90px] md:flex-row flex-col"
+          >
+            <!-- left -->
+            <div class="w-full space-y-3">
+              <p
+                class="text-sm lg:text-base leading-[150%] text-themeSecondaryPera"
+              >
+                Hello, I’m Quai Wentt, and I founded the Purple Squirrel Network
+                to address the disparities in tech recruitment and help
+                underrepresented software engineers gain the skills and
+                opportunities they deserve. Through our Leetcode classes, I
+                teach engineers data structures and algorithms, preparing them
+                to excel in technical interviews.
+              </p>
+
+              <p
+                class="text-sm lg:text-base leading-[150%] text-themeSecondaryPera"
+              >
+                Our mission goes beyond just training; we strive to create
+                pathways for talented engineers from diverse backgrounds to
+                break into top tech companies. By joining our network, engineers
+                will not only gain technical expertise but will also have access
+                to job referrals from companies committed to improving their DEI
+                efforts.
+              </p>
+
+              <p
+                class="text-sm lg:text-base leading-[150%] text-themeSecondaryPera"
+              >
+                We believe that by equipping underrepresented engineers with the
+                right skills and connecting them to the right opportunities, we
+                can help change the face of tech and build a more inclusive,
+                innovative industry.
+              </p>
+            </div>
+
+            <!-- Right -->
+            <div class="w-full">
+              <img
+                loading="lazy"
+                src="./assets/about-us-img.png"
+                alt="about__us"
+                class="w-full h-full duration-200 hover:scale-95"
+              />
+            </div>
+          </div>
+          <!-- Wrapper End -->
+        </div>
+      </div>
+      <!-- About Us Section End -->
+
+      <!-- Ready to join Section Start -->
+      <div class="w-full">
+        <div class="container">
+          <!-- Wrapper Start -->
+          <div
+            class="w-full flex items-center lg:justify-between justify-center md:flex-row flex-col gap-4 md:gap-2 bg-bannerBg h-[132px] lg:h-[97px] rounded-[20px] pl-8 pr-3"
+          >
+            <!-- left -->
+            <div class="w-full">
+              <h3
+                class="text-xl md:text-2xl lg:text-[26px] font-semibold text-primaryBlack"
+              >
+                Ready to join?
+              </h3>
+            </div>
+
+            <!-- Right -->
+            <div
+              class="flex items-center justify-start w-full gap-2 md:justify-end"
+            >
+              <a
+                href="https://www.subbb.me/purplesquirrelnetwork"
+                target="_blank"
+                class="primary__btn"
+              >
+                Apply Now
+              </a>
+              <a
+                href="https://www.patreon.com/PurpleSquirrelNetwork"
+                target="_blank"
+                class="primary__btn__two"
+              >
+                Become a Patron
+              </a>
+            </div>
+          </div>
+          <!-- Wrapper End -->
+        </div>
+      </div>
+      <!-- Ready to join Section End -->
+
+      <!-- Faq Section Start -->
+      <div class="w-full mt-24 mb-28">
+        <div class="container">
+          <!-- Heading -->
+          <div class="w-full mb-14 lg:mb-[90px]">
+            <h3
+              class="text-2xl font-semibold text-center md:text-3xl lg:text-4xl text-avatarName tracking-extraSmall"
+            >
+              Frequently asked questions
+            </h3>
+
+            <p class="mt-4 text-base text-center md:text-lg text-themePera">
+              Everything you need to know about the product and billing.
+            </p>
+          </div>
+
+          <!-- wrapper start -->
+          <div
+            class="grid w-full grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <!-- Item 1 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="icon-box">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-love.svg"
+                  alt="Who-is-the-group-for"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">Who is the group for?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">
+                This group is designed for software engineers from
+                underrepresented groups (BIPOC, women/nonbinary individuals).
+                It’s not for those completely new to coding; it’s for those who
+                already know how to code but need to strengthen their knowledge
+                of data structures and algorithms.
+              </p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="icon-box">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-swap.svg"
+                  alt="What-is-the-format-of-the-group-for"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">What is the format of the group?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">
+                The group meets three days a week for one-hour sessions. We
+                start by working on a Leetcode problem, then I discuss the
+                brute-force and optimal solutions, and I walk through the code
+                line by line. Sessions are interactive, and there’s time for
+                questions at the end.
+              </p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="icon-box">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-edu.svg"
+                  alt="What-will-I-learn"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">What will I learn?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">
+                We focus on identifying and solving problems based on common
+                patterns found in data structure and algorithm interviews. You
+                will learn how to apply these patterns effectively and implement
+                solutions in real-world interview scenarios.
+              </p>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="icon-box">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-clock.svg"
+                  alt="What-time-does-the-group-meet?"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">What time does the group meet?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">The group meets three days a week:</p>
+
+              <ul class="mt-4 list-disc">
+                <li class="mx-auto text-center faq-desc w-max">
+                  Mon/Wed/Fri at 2pm EST / 11am PST
+                </li>
+
+                <li class="mx-auto text-center faq-desc w-max">
+                  Sessions are recorded if you can’t attend live.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="flex items-center justify-center">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-rabit.svg"
+                  alt="What-the-name"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">Why the name "Purple Squirrel Network"?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">
+                “Purple squirrel” refers to a rare, ideal candidate who meets
+                every job requirement. Similarly, underrepresented tech talent
+                is rare and valuable. We help you become that "purple squirrel"
+                with the right skills and opportunities.
+              </p>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="w-full">
+              <!-- Icon -->
+              <div class="icon-box">
+                <img
+                  loading="lazy"
+                  src="./assets/faq-coins.svg"
+                  alt="cost-icon"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <!-- Title -->
+              <h3 class="faq-title">How much does it cost to join?</h3>
+
+              <!-- Text -->
+              <p class="faq-desc">
+                Our services, including Leetcode classes and job referrals, are
+                completely free for all members. Our goal is to make tech
+                opportunities accessible to underrepresented engineers without
+                any financial barriers.
+              </p>
+            </div>
+          </div>
+          <!-- wrapper end -->
+        </div>
+      </div>
+      <!-- Faq Section End -->
+
+      <!-- Support Banner Start -->
+      <div class="relative z-20 w-full px-3 lg:px-0">
+        <div
+          class="secondary-container relative isolate h-[505px] md:h-[418px] bg-headingBlack rounded-40px flex flex-col justify-center items-center overflow-hidden px-5"
+        >
+          <!-- avatar group -->
+          <div class="mb-3">
+            <img
+              loading="lazy"
+              src="./assets/avatar-grooup.png"
+              alt="avatars"
+            />
+          </div>
+
+          <!-- Title -->
+          <h3
+            class="text-white text-[32px] md:text-[36px] lg:text-[42px] font-semibold mb-2"
+          >
+            Support Our Mission
+          </h3>
+
+          <!-- Desc -->
+          <div class="w-full max-w-[620px]">
+            <p
+              class="text-white leading-[150%] md:text-base text-sm text-center"
+            >
+              Want to help us make tech more inclusive? Support our mission
+              today and help us provide free education and career opportunities
+              for underrepresented engineers.
+            </p>
+          </div>
+
+          <!-- Btns Group -->
+          <div class="flex items-center justify-center w-full gap-2 mt-6">
+            <a
+              href="https://donate.stripe.com/eVa9BAaN3cKF3OU288"
+              target="_blank"
+              class="primary__btn"
+            >
+              Donate Now
+            </a>
+            <a
+              href="https://www.patreon.com/PurpleSquirrelNetwork"
+              target="_blank"
+              class="primary__btn__two"
+            >
+              Become a Patron
+            </a>
+          </div>
+
+          <!-- Overlay -->
+          <div
+            class="absolute inset-0 pointer-events-none md:inset-auto md:-translate-x-1/2 md:bottom-44 md:left-1/2 -z-20"
+          >
+            <img
+              loading="lazy"
+              src="./assets/support-banner-overlay.png"
+              alt="overlay"
+              class="hidden w-full h-full md:block"
+            />
+            <img
+              loading="lazy"
+              src="./assets/support-overlay-mob.png"
+              alt="overlay"
+              class="block md:hidden"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Support Banner End -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <div
+      class="w-full relative h-[1024px] md:h-[624px] isolate pb-[70px] md:pb-[132px] flex items-end -mt-[180px] md:-mt-[220px]"
+    >
+      <!-- Content -->
+      <div class="container">
+        <!-- Wrapper Start -->
+        <div
+          class="flex flex-col items-center md:items-end justify-between w-full md:flex-row md:gap-4 gap-[180px]"
+        >
+          <!-- left -->
+          <div>
+            <!-- logo -->
+            <div class="flex justify-center md:justify-start">
+              <img
+                loading="lazy"
+                src="./assets/favicon.svg"
+                alt="logo"
+                class="w-[60px] h-14"
+              />
+            </div>
+
+            <!-- desc -->
+            <div class="w-full max-w-[430px] mt-4 md:mt-5 md:mb-[52px]">
+              <p
+                class="text-primaryBlack text-sm md:text-base lg:text-[19px] font-normal leading-[150%] md:text-left text-center"
+              >
+                Our mission is to help you sharpen your skills and connect you
+                with companies committed to diversity and inclusion.
+              </p>
+            </div>
+
+            <p class="hidden text-primaryBlack md:block">
+              © 2025. All rights reserved.
+            </p>
+          </div>
+
+          <!-- Right -->
+          <div
+            class="flex flex-col items-start justify-center gap-12 md:justify-start md:flex-row lg:gap-20"
+          >
+            <!-- Quick Links -->
+            <div class="w-full md:w-auto">
+              <!-- heading -->
+              <h5
+                class="font-medium text-activeBlack mb-[25px] md:text-start text-center"
+              >
+                Quick Links
+              </h5>
+
+              <ul class="flex flex-col md:items-start items-center gap-[22px]">
+                <li>
+                  <a
+                    href="./index.html"
+                    class="duration-200 text-primaryBlack hover:text-themePurple"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="duration-200 text-primaryBlack hover:text-themePurple"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="./for-engineers.html"
+                    class="duration-200 text-primaryBlack hover:text-themePurple"
+                    >For Engineers</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="./for-companies.html"
+                    class="duration-200 text-primaryBlack hover:text-themePurple"
+                    >For Companies</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Follow Us -->
+            <div class="w-full md:w-auto">
+              <!-- heading -->
+              <h5
+                class="font-medium text-activeBlack mb-[25px] md:text-start text-center"
+              >
+                Follow Us
+              </h5>
+
+              <!-- Social Link -->
+              <div
+                class="flex items-center md:justify-start justify-center gap-2.5"
+              >
+                <!-- Item -->
+                <a href="https://x.com/PurpleSqrrlNtwk" target="_blank">
+                  <div
+                    class="w-[42px] h-[42px] rounded-full bg-themePurple flex items-center justify-center hover:translate-y-2 duration-200"
+                  >
+                    <img
+                      loading="lazy"
+                      src="./assets/twitter-icon.svg"
+                      alt="twitter__icon"
+                    />
+                  </div>
+                </a>
+
+                <!-- Item -->
+                <a
+                  href="https://www.linkedin.com/company/purple-squirrel-network-qw/"
+                  target="_blank"
+                >
+                  <div
+                    class="w-[42px] h-[42px] rounded-full bg-white flex items-center justify-center hover:translate-y-2 duration-200"
+                  >
+                    <img
+                      loading="lazy"
+                      src="./assets/linkedin-icon.svg"
+                      alt="linkedin-icon.svg__icon"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <p class="block text-sm text-primaryBlack md:hidden">
+              © 2025. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <!-- Wrapper End -->
+      </div>
+
+      <!-- Background Image -->
+      <div class="absolute inset-0 pointer-events-none -z-10">
+        <img
+          loading="lazy"
+          src="./assets/footer-mask.png"
+          alt="background__image"
+          class="w-full h-full"
+        />
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Add this script in the head or before the closing body tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- JS File Linkup -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
